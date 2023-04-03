@@ -16,12 +16,12 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
 
-    flag: {
+    flags: {
       type: DataTypes.STRING,
       allowNull: false,
     },
 
-    continent: {
+    continents: {
       type: DataTypes.STRING,
       allowNull: false,
     },
